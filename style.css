@@ -1,0 +1,66 @@
+.container{
+    margin-bottom: 70px;
+}
+.banner-bg{
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom left;
+    background-size: auto;
+
+}
+
+.banner-img{
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+}
+
+.buy-btn{
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.banner-bg .carousel-indicators [data-bs-target] {
+    border-top: 5px solid #FF9C35;
+    width: 10px;
+}
+.banner-bg .carousel-indicators .active {
+    border-top: 5px solid #FF9C35;
+    width: 35px;
+}
+
+.smartphones  a, .laptop a{
+    text-decoration: none;
+    color: #FF9D00;
+    font-weight: 600;
+}
+
+.smartphones img{
+    height: 53vh;
+}
+
+.card{
+    border: none;
+    box-shadow: 2px 2px 10px lightgrey;
+
+}
+
+.categories .line{
+    background-image: linear-gradient(to right,#FFD019 0%, #FF9C35 100%);
+    width: 8vw;
+    height: 1vh;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.category-card{
+    box-shadow: 1px 1px 10px lightgray;
+    border-radius: 10px;
+    height: 35vh;
+}
+
